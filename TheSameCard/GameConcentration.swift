@@ -39,6 +39,7 @@ class ConcentrationGame {
             let card = Card()
             cards += [card, card]
         }
+        cards = cards.shuffled()
     }
     
 }
